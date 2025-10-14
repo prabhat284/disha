@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "hardware",
+      "name": "Hardware & Fittings",
+      "products": [
+        {
+          "id": "servo-drive",
+          "name": "Servo-Drive Uno",
+          "description": "Electrical opening support system for handleless furniture",
+          "quantity": 8,
+          "unitPrice": 12500,
+          "totalPrice": 100000,
+          "status": "Selected",
+          "image": "/images/products/servo-drive.jpg"
+        },
+        {
+          "id": "hinges",
+          "name": "Grass Nova Pro Soft-Close Hinges",
+          "description": "Premium soft-close concealed hinges",
+          "quantity": 24,
+          "unitPrice": 850,
+          "totalPrice": 20400,
+          "status": "Selected",
+          "image": "/images/products/hinges.jpg"
+        },
+        {
+          "id": "handles",
+          "name": "Brass Edge Pull Handles",
+          "description": "Modern brass finish cabinet handles",
+          "quantity": 16,
+          "unitPrice": 1200,
+          "totalPrice": 19200,
+          "status": "Under Review",
+          "image": "/images/products/handles.jpg"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage Solutions",
+      "products": [
+        {
+          "id": "magic-corner",
+          "name": "Magic Corner II",
+          "description": "Innovative corner cabinet storage solution",
+          "quantity": 2,
+          "unitPrice": 18500,
+          "totalPrice": 37000,
+          "status": "Selected",
+          "image": "/images/products/magic-corner.jpg"
+        },
+        {
+          "id": "tandem-drawer",
+          "name": "Tandem Drawer System",
+          "description": "Full extension drawer slides with soft-close",
+          "quantity": 12,
+          "unitPrice": 3200,
+          "totalPrice": 38400,
+          "status": "Selected",
+          "image": "/images/products/tandem.jpg"
+        },
+        {
+          "id": "pull-out",
+          "name": "Pull-Out Pantry System",
+          "description": "Tall unit pull-out storage system",
+          "quantity": 1,
+          "unitPrice": 28000,
+          "totalPrice": 28000,
+          "status": "Selected",
+          "image": "/images/products/pullout.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "Lighting",
+      "products": [
+        {
+          "id": "led-strip",
+          "name": "Loox LED Strip Lights",
+          "description": "Under-cabinet LED lighting system",
+          "quantity": 12,
+          "unitPrice": 1800,
+          "totalPrice": 21600,
+          "status": "Selected",
+          "image": "/images/products/led.jpg"
+        }
+      ]
+    }
+  ]
+}

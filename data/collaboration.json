@@ -1,0 +1,57 @@
+{
+  "decisions": [
+    {
+      "id": 1,
+      "date": "2025-01-28",
+      "topic": "Design Option Selection",
+      "decision": "Option B - Contemporary Warm selected as primary design",
+      "decidedBy": "Neeru Tiwary",
+      "status": "Approved"
+    },
+    {
+      "id": 2,
+      "date": "2025-02-02",
+      "topic": "Countertop Material",
+      "decision": "Changed from marble to quartz for better durability",
+      "decidedBy": "Joint Decision",
+      "status": "Approved"
+    },
+    {
+      "id": 3,
+      "date": "2025-02-03",
+      "topic": "Hardware Finish",
+      "decision": "Brass finish for all handles and fittings",
+      "decidedBy": "Neeru Tiwary",
+      "status": "Pending Architect Review"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "author": "Neeru Tiwary",
+      "date": "2025-01-25",
+      "section": "Design Option B",
+      "comment": "I love the warm tones! Can we add more brass accents throughout?",
+      "reply": "Absolutely! I'll incorporate brass hardware in the updated design.",
+      "status": "Resolved"
+    },
+    {
+      "id": 2,
+      "author": "Neeru Tiwary",
+      "date": "2025-02-01",
+      "section": "Storage",
+      "comment": "Do we have enough space for all my cookware?",
+      "reply": "Yes, the Magic Corner system and pull-out pantry will provide ample storage. I'll show you the capacity details.",
+      "status": "Resolved"
+    },
+    {
+      "id": 3,
+      "author": "Architect",
+      "date": "2025-02-04",
+      "section": "Timeline",
+      "comment": "Hafele Servo-Drive system has 2-week delivery time. Should we place order now?",
+      "reply": "",
+      "status": "Awaiting Response"
+    }
+  ]
+}

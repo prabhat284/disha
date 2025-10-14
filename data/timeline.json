@@ -1,0 +1,112 @@
+{
+  "milestones": [
+    {
+      "id": 1,
+      "phase": "Design Development",
+      "tasks": [
+        {
+          "name": "Initial concepts presentation",
+          "startDate": "2025-01-15",
+          "endDate": "2025-01-20",
+          "status": "Completed",
+          "completion": 100
+        },
+        {
+          "name": "Client feedback & revisions",
+          "startDate": "2025-01-21",
+          "endDate": "2025-01-30",
+          "status": "Completed",
+          "completion": 100
+        },
+        {
+          "name": "Final design approval",
+          "startDate": "2025-01-31",
+          "endDate": "2025-02-05",
+          "status": "In Progress",
+          "completion": 60
+        },
+        {
+          "name": "Technical drawings",
+          "startDate": "2025-02-06",
+          "endDate": "2025-02-15",
+          "status": "Pending",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "phase": "Procurement",
+      "tasks": [
+        {
+          "name": "Hafele products order",
+          "startDate": "2025-02-16",
+          "endDate": "2025-02-20",
+          "status": "Pending",
+          "completion": 0
+        },
+        {
+          "name": "Material procurement",
+          "startDate": "2025-02-21",
+          "endDate": "2025-03-05",
+          "status": "Pending",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "phase": "Execution",
+      "tasks": [
+        {
+          "name": "Site preparation",
+          "startDate": "2025-03-06",
+          "endDate": "2025-03-10",
+          "status": "Pending",
+          "completion": 0
+        },
+        {
+          "name": "Cabinetry installation",
+          "startDate": "2025-03-11",
+          "endDate": "2025-03-25",
+          "status": "Pending",
+          "completion": 0
+        },
+        {
+          "name": "Countertop installation",
+          "startDate": "2025-03-26",
+          "endDate": "2025-03-30",
+          "status": "Pending",
+          "completion": 0
+        },
+        {
+          "name": "Appliances & hardware",
+          "startDate": "2025-03-31",
+          "endDate": "2025-04-05",
+          "status": "Pending",
+          "completion": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "phase": "Finishing",
+      "tasks": [
+        {
+          "name": "Final touches & cleanup",
+          "startDate": "2025-04-06",
+          "endDate": "2025-04-10",
+          "status": "Pending",
+          "completion": 0
+        },
+        {
+          "name": "Handover & documentation",
+          "startDate": "2025-04-11",
+          "endDate": "2025-04-15",
+          "status": "Pending",
+          "completion": 0
+        }
+      ]
+    }
+  ]
+}

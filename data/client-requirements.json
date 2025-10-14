@@ -1,0 +1,151 @@
+{
+  "projectName": "DISHA Kitchen",
+  "architect": {
+    "name": "Anjali Tiwari",
+    "email": "anjali.tiwari224@gmail.com",
+    "phone": "+91 XXXXX XXXXX",
+    "role": "Interior Designer/Architect"
+  },
+  "client": {
+    "name": "Neeru Tiwary",
+    "email": "neeru.tiwary@email.com",
+    "phone": "+91 98765 43210",
+    "location": "Jamshedpur, Jharkhand"
+  },
+  "dateReceived": "2025-10-14",
+  "requirementsSource": "Email from Anjali Tiwari",
+
+  "baseCabinets": [
+    {
+      "item": "Double door sink cabinet",
+      "quantity": 1,
+      "width": "Standard",
+      "includes": ["Sink with accessories", "Waste bin", "Bottle washer"]
+    },
+    {
+      "item": "Single door dish washer cabinet",
+      "quantity": 1,
+      "width": "Standard"
+    },
+    {
+      "item": "Drawers with tandem boxes",
+      "quantity": 2,
+      "width": "3 ft",
+      "type": "Hafele tandem box system"
+    },
+    {
+      "item": "Gas chamber cabinet",
+      "quantity": 1,
+      "width": "1.5 ft (1'6\")"
+    },
+    {
+      "item": "Filler",
+      "quantity": 1,
+      "width": "5 inches"
+    },
+    {
+      "item": "Bottle pullout",
+      "quantity": 1,
+      "width": "1 ft",
+      "type": "Hafele pull-out mechanism"
+    },
+    {
+      "item": "3 utility drawers cabinet",
+      "quantity": 2,
+      "width": "3 ft",
+      "drawers": 3
+    }
+  ],
+
+  "tallUnits": [
+    {
+      "item": "Tall unit with tandem drawers",
+      "quantity": 1,
+      "height": "7 ft",
+      "width": "3 ft",
+      "depth": "2 ft",
+      "configuration": [
+        "2 tandem drawers",
+        "1 double door cabinet"
+      ]
+    },
+    {
+      "item": "Tall unit with aluminum profile glass shutter",
+      "quantity": 1,
+      "height": "7 ft",
+      "width": "3 ft",
+      "depth": "2 ft",
+      "shutterType": "Double door aluminum profile glass shutter",
+      "hardware": "Handleless/with handles (TBD)"
+    }
+  ],
+
+  "wallCabinets": [
+    {
+      "item": "Wall cabinets",
+      "quantity": 3,
+      "height": "Up to 5 ft from floor"
+    },
+    {
+      "item": "Aluminum shutter wall cabinets",
+      "quantity": 2,
+      "height": "5 ft",
+      "width": "2 ft"
+    },
+    {
+      "item": "Double door aluminum profile glass shutter",
+      "quantity": 4,
+      "width": "3 ft",
+      "depth": "1 ft",
+      "shutterType": "Aluminum profile with glass"
+    }
+  ],
+
+  "appliances": [
+    {
+      "item": "Sink",
+      "quantity": 1,
+      "accessories": ["Waste bin", "Bottle washer"]
+    },
+    {
+      "item": "Hob",
+      "quantity": 1,
+      "type": "Built-in"
+    },
+    {
+      "item": "Angle chimney",
+      "quantity": 1,
+      "type": "One angle chimney"
+    }
+  ],
+
+  "finishes": [
+    {
+      "item": "Backsplash",
+      "height": "5 ft (up to wall cabinet height)"
+    }
+  ],
+
+  "measurements": {
+    "totalBaseCabinets": "Approx 17-18 ft run",
+    "tallUnits": "2 units @ 3 ft each = 6 ft",
+    "wallCabinetsHeight": "5 ft from floor",
+    "backsplashHeight": "5 ft"
+  },
+
+  "specialFeatures": [
+    "Hafele tandem box drawer systems",
+    "Aluminum profile glass shutters",
+    "Integrated waste management (waste bin, bottle washer)",
+    "Gas chamber with safety features",
+    "Pull-out bottle storage",
+    "Handleless option for modern look"
+  ],
+
+  "designerNotes": [
+    "Client prefers aluminum profile glass shutters for modern aesthetic",
+    "Emphasis on storage with utility drawers and tall units",
+    "Integrated sink accessories for functionality",
+    "Backsplash to match wall cabinet height for cohesive look"
+  ]
+}

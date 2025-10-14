@@ -1,0 +1,413 @@
+{
+  "option-a": {
+    "baseCabinets": [
+      {
+        "id": "BC-001",
+        "name": "Sink Base Cabinet (900mm)",
+        "dimensions": {
+          "width": 900,
+          "depth": 600,
+          "height": 720
+        },
+        "drawings": {
+          "assembly": "/drawings/option-a/BC-001-assembly.pdf",
+          "parts": "/drawings/option-a/BC-001-parts.pdf",
+          "elevation": "/drawings/option-a/BC-001-elevation.pdf"
+        },
+        "components": [
+          {
+            "id": "BC-001-P1",
+            "name": "Side Panel (Left)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 720, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front", "Top", "Bottom"],
+            "drilling": [
+              { "type": "hinge", "position": "front edge", "spacing": 32, "count": 4 }
+            ]
+          },
+          {
+            "id": "BC-001-P2",
+            "name": "Side Panel (Right)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 720, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front", "Top", "Bottom"],
+            "drilling": [
+              { "type": "hinge", "position": "front edge", "spacing": 32, "count": 4 }
+            ]
+          },
+          {
+            "id": "BC-001-P3",
+            "name": "Top Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front"]
+          },
+          {
+            "id": "BC-001-P4",
+            "name": "Bottom Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front"]
+          },
+          {
+            "id": "BC-001-P5",
+            "name": "Back Panel",
+            "material": "12mm BWP Ply",
+            "finish": "Natural",
+            "dimensions": { "length": 864, "width": 720, "thickness": 12 },
+            "quantity": 1,
+            "edgeBanding": []
+          },
+          {
+            "id": "BC-001-P6",
+            "name": "Door Panel (Left)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white lacquer",
+            "dimensions": { "length": 710, "width": 447, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["All edges"],
+            "drilling": [
+              { "type": "hinge cup", "diameter": 35, "depth": 13, "count": 2 }
+            ]
+          },
+          {
+            "id": "BC-001-P7",
+            "name": "Door Panel (Right)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white lacquer",
+            "dimensions": { "length": 710, "width": 447, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["All edges"],
+            "drilling": [
+              { "type": "hinge cup", "diameter": 35, "depth": 13, "count": 2 }
+            ]
+          }
+        ],
+        "hafeleHardware": [
+          {
+            "article": "311.20.851",
+            "name": "Soft-close Hinge 110°",
+            "type": "hinge",
+            "quantity": 4,
+            "position": "doors",
+            "specifications": {
+              "cupDiameter": 35,
+              "cupDepth": 13,
+              "overlay": "full",
+              "openingAngle": 110,
+              "softClose": true
+            },
+            "drillingTemplate": "/drawings/hafele/311.20.851-template.pdf",
+            "installationGuide": "/drawings/hafele/311.20.851-install.pdf"
+          }
+        ],
+        "cutList": {
+          "18mmPly": [
+            { "description": "Side Panels", "size": "720x600", "qty": 2 },
+            { "description": "Top/Bottom Panels", "size": "900x600", "qty": 2 },
+            { "description": "Door Panels", "size": "710x447", "qty": 2 }
+          ],
+          "12mmPly": [
+            { "description": "Back Panel", "size": "864x720", "qty": 1 }
+          ]
+        },
+        "assemblySteps": [
+          "Install side panels with bottom panel using confirmat screws",
+          "Attach back panel with brad nails",
+          "Install top panel",
+          "Mount hinges on door panels using hinge jig",
+          "Attach doors to side panels",
+          "Adjust door alignment and soft-close mechanism"
+        ]
+      },
+      {
+        "id": "BC-002",
+        "name": "3ft Drawer Unit with Tandem Boxes",
+        "dimensions": {
+          "width": 900,
+          "depth": 600,
+          "height": 720
+        },
+        "drawings": {
+          "assembly": "/drawings/option-a/BC-002-assembly.pdf",
+          "parts": "/drawings/option-a/BC-002-parts.pdf",
+          "elevation": "/drawings/option-a/BC-002-elevation.pdf"
+        },
+        "components": [
+          {
+            "id": "BC-002-P1",
+            "name": "Side Panel (Left)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 720, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front", "Top"],
+            "drilling": [
+              { "type": "drawer slide", "position": "inner face", "spacing": 200, "count": 3 }
+            ]
+          },
+          {
+            "id": "BC-002-P2",
+            "name": "Side Panel (Right)",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 720, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front", "Top"],
+            "drilling": [
+              { "type": "drawer slide", "position": "inner face", "spacing": 200, "count": 3 }
+            ]
+          },
+          {
+            "id": "BC-002-P3",
+            "name": "Top Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front"]
+          },
+          {
+            "id": "BC-002-P4",
+            "name": "Bottom Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front"]
+          }
+        ],
+        "hafeleHardware": [
+          {
+            "article": "432.16.963",
+            "name": "Tandem Box Drawer System",
+            "type": "drawer",
+            "quantity": 3,
+            "position": "drawers",
+            "specifications": {
+              "length": 550,
+              "extension": "full",
+              "loadCapacity": "40kg",
+              "softClose": true,
+              "height": "M (83mm)"
+            },
+            "drillingTemplate": "/drawings/hafele/432.16.963-template.pdf",
+            "installationGuide": "/drawings/hafele/432.16.963-install.pdf"
+          }
+        ],
+        "cutList": {
+          "18mmPly": [
+            { "description": "Side Panels", "size": "720x600", "qty": 2 },
+            { "description": "Top/Bottom Panels", "size": "900x600", "qty": 2 }
+          ]
+        },
+        "assemblySteps": [
+          "Assemble cabinet carcass with confirmat screws",
+          "Install drawer slide rails on side panels",
+          "Mount Hafele Tandem Box systems with provided brackets",
+          "Install drawer fronts with adjustment screws",
+          "Test and adjust soft-close mechanism"
+        ]
+      }
+    ],
+    "wallCabinets": [
+      {
+        "id": "WC-001",
+        "name": "Standard Wall Cabinet",
+        "dimensions": {
+          "width": 900,
+          "depth": 350,
+          "height": 720
+        },
+        "drawings": {
+          "assembly": "/drawings/option-a/WC-001-assembly.pdf",
+          "parts": "/drawings/option-a/WC-001-parts.pdf",
+          "elevation": "/drawings/option-a/WC-001-elevation.pdf"
+        },
+        "components": [
+          {
+            "id": "WC-001-P1",
+            "name": "Side Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 720, "width": 350, "thickness": 18 },
+            "quantity": 2,
+            "edgeBanding": ["Front", "Top", "Bottom"],
+            "drilling": [
+              { "type": "shelf pin", "position": "inner face", "spacing": 32, "count": 8 }
+            ]
+          },
+          {
+            "id": "WC-001-P2",
+            "name": "Top/Bottom Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 350, "thickness": 18 },
+            "quantity": 2,
+            "edgeBanding": ["Front"]
+          },
+          {
+            "id": "WC-001-P3",
+            "name": "Door Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white lacquer",
+            "dimensions": { "length": 710, "width": 447, "thickness": 18 },
+            "quantity": 2,
+            "edgeBanding": ["All edges"],
+            "drilling": [
+              { "type": "hinge cup", "diameter": 35, "depth": 13, "count": 2 }
+            ]
+          }
+        ],
+        "hafeleHardware": [
+          {
+            "article": "311.20.851",
+            "name": "Soft-close Hinge 110°",
+            "type": "hinge",
+            "quantity": 4,
+            "position": "doors",
+            "specifications": {
+              "cupDiameter": 35,
+              "cupDepth": 13,
+              "overlay": "full",
+              "openingAngle": 110,
+              "softClose": true
+            },
+            "drillingTemplate": "/drawings/hafele/311.20.851-template.pdf",
+            "installationGuide": "/drawings/hafele/311.20.851-install.pdf"
+          }
+        ],
+        "cutList": {
+          "18mmPly": [
+            { "description": "Side Panels", "size": "720x350", "qty": 2 },
+            { "description": "Top/Bottom Panels", "size": "900x350", "qty": 2 },
+            { "description": "Door Panels", "size": "710x447", "qty": 2 }
+          ]
+        },
+        "assemblySteps": [
+          "Assemble cabinet carcass",
+          "Install adjustable shelf pins",
+          "Mount hinges on doors",
+          "Attach wall mounting rail",
+          "Hang and adjust doors"
+        ]
+      }
+    ],
+    "tallUnits": [
+      {
+        "id": "TU-001",
+        "name": "Tall Unit 7'H x 3'W with Tandem Drawers",
+        "dimensions": {
+          "width": 900,
+          "depth": 600,
+          "height": 2100
+        },
+        "drawings": {
+          "assembly": "/drawings/option-a/TU-001-assembly.pdf",
+          "parts": "/drawings/option-a/TU-001-parts.pdf",
+          "elevation": "/drawings/option-a/TU-001-elevation.pdf"
+        },
+        "components": [
+          {
+            "id": "TU-001-P1",
+            "name": "Side Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 2100, "width": 600, "thickness": 18 },
+            "quantity": 2,
+            "edgeBanding": ["Front", "Top", "Bottom"],
+            "drilling": [
+              { "type": "mixed", "position": "inner face", "count": 12 }
+            ]
+          },
+          {
+            "id": "TU-001-P2",
+            "name": "Top/Bottom Panel",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 900, "width": 600, "thickness": 18 },
+            "quantity": 2,
+            "edgeBanding": ["Front"]
+          },
+          {
+            "id": "TU-001-P3",
+            "name": "Fixed Shelf",
+            "material": "18mm BWP Ply",
+            "finish": "High-gloss white laminate",
+            "dimensions": { "length": 864, "width": 600, "thickness": 18 },
+            "quantity": 1,
+            "edgeBanding": ["Front"]
+          }
+        ],
+        "hafeleHardware": [
+          {
+            "article": "432.16.963",
+            "name": "Tandem Box Drawer System",
+            "type": "drawer",
+            "quantity": 2,
+            "position": "lower section",
+            "specifications": {
+              "length": 550,
+              "extension": "full",
+              "loadCapacity": "40kg",
+              "softClose": true,
+              "height": "M (83mm)"
+            },
+            "drillingTemplate": "/drawings/hafele/432.16.963-template.pdf",
+            "installationGuide": "/drawings/hafele/432.16.963-install.pdf"
+          },
+          {
+            "article": "311.20.851",
+            "name": "Soft-close Hinge 110°",
+            "type": "hinge",
+            "quantity": 4,
+            "position": "upper cabinet doors",
+            "specifications": {
+              "cupDiameter": 35,
+              "cupDepth": 13,
+              "overlay": "full",
+              "openingAngle": 110,
+              "softClose": true
+            },
+            "drillingTemplate": "/drawings/hafele/311.20.851-template.pdf",
+            "installationGuide": "/drawings/hafele/311.20.851-install.pdf"
+          }
+        ],
+        "cutList": {
+          "18mmPly": [
+            { "description": "Side Panels", "size": "2100x600", "qty": 2 },
+            { "description": "Top/Bottom Panels", "size": "900x600", "qty": 2 },
+            { "description": "Fixed Shelf", "size": "864x600", "qty": 1 },
+            { "description": "Door Panels", "size": "1050x447", "qty": 2 }
+          ]
+        },
+        "assemblySteps": [
+          "Assemble tall unit carcass with confirmat screws",
+          "Install fixed shelf at drawer/cabinet division point",
+          "Install drawer slide systems for tandem boxes",
+          "Mount upper cabinet hinges",
+          "Attach doors and drawer fronts",
+          "Final adjustment of all mechanisms"
+        ]
+      }
+    ]
+  },
+  "option-b": {
+    "baseCabinets": [],
+    "wallCabinets": [],
+    "tallUnits": []
+  },
+  "option-c": {
+    "baseCabinets": [],
+    "wallCabinets": [],
+    "tallUnits": []
+  }
+}

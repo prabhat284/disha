@@ -1,0 +1,28 @@
+{
+  "projectName": "DISHA",
+  "projectType": "Kitchen Renovation",
+  "architect": {
+    "name": "Anjali Tiwari",
+    "role": "Interior Designer/Architect",
+    "email": "anjali.tiwari224@gmail.com",
+    "phone": "+91 XXXXX XXXXX"
+  },
+  "client": {
+    "name": "Neeru Tiwary",
+    "email": "neeru.tiwary@email.com",
+    "phone": "+91 98765 43210"
+  },
+  "location": "Jamshedpur, Jharkhand",
+  "startDate": "2025-10-14",
+  "expectedCompletion": "2025-04-15",
+  "currentPhase": "Design Development",
+  "area": "180 sq ft",
+  "budget": {
+    "approved": 947000,
+    "spent": 0,
+    "pending": 947000
+  },
+  "status": "In Progress",
+  "completionPercentage": 10
+}
+

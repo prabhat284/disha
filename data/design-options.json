@@ -1,0 +1,76 @@
+{
+  "options": [
+    {
+      "id": "option-a",
+      "name": "Modern Minimalist",
+      "description": "Clean lines with handleless Hafele cabinets",
+      "status": "Under Review",
+      "clientFeedback": "",
+      "coohomUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "images": {
+        "render3d": "/images/designs/option-a-3d.jpg",
+        "floorPlan": "/images/designs/option-a-plan.jpg",
+        "elevation": "/images/designs/option-a-elevation.jpg"
+      },
+      "features": [
+        "Hafele Servo-Drive handleless system",
+        "Quartz countertop with waterfall edge",
+        "Integrated LED lighting"
+      ],
+      "materials": {
+        "cabinets": "High-gloss white lacquer",
+        "countertop": "Calacatta Quartz",
+        "backsplash": "Large format porcelain"
+      },
+      "estimatedCost": 825000
+    },
+    {
+      "id": "option-b",
+      "name": "Contemporary Warm",
+      "description": "Warm wood tones with brass Hafele hardware",
+      "status": "Preferred",
+      "clientFeedback": "Love the warmth!",
+      "coohomUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "images": {
+        "render3d": "/images/designs/option-b-3d.jpg",
+        "floorPlan": "/images/designs/option-b-plan.jpg",
+        "elevation": "/images/designs/option-b-elevation.jpg"
+      },
+      "features": [
+        "Hafele brass finish handles",
+        "Wooden open shelving",
+        "Marble countertop"
+      ],
+      "materials": {
+        "cabinets": "Natural walnut veneer",
+        "countertop": "White Carrara Marble",
+        "backsplash": "Subway tiles"
+      },
+      "estimatedCost": 875000
+    },
+    {
+      "id": "option-c",
+      "name": "Industrial Chic",
+      "description": "Bold design with matte black Hafele fixtures",
+      "status": "Alternative",
+      "clientFeedback": "",
+      "coohomUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "images": {
+        "render3d": "/images/designs/option-c-3d.jpg",
+        "floorPlan": "/images/designs/option-c-plan.jpg",
+        "elevation": "/images/designs/option-c-elevation.jpg"
+      },
+      "features": [
+        "Hafele matte black hardware",
+        "Concrete-look countertop",
+        "Metal wire shelving"
+      ],
+      "materials": {
+        "cabinets": "Matte charcoal laminate",
+        "countertop": "Concrete composite",
+        "backsplash": "Exposed brick"
+      },
+      "estimatedCost": 795000
+    }
+  ]
+}

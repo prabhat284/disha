@@ -1,0 +1,308 @@
+{
+  "projectName": "DISHA Kitchen - Anjali Tiwari",
+  "dateCreated": "2025-10-15",
+  "version": "1.0",
+
+  "items": [
+    {
+      "category": "Base Cabinets",
+      "items": [
+        {
+          "description": "Double door sink cabinet (18mm BWP ply, laminate finish)",
+          "specification": "With Hafele soft-close hinges",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 18000,
+          "amount": 18000
+        },
+        {
+          "description": "Single door dishwasher cabinet",
+          "specification": "18mm BWP ply with laminate",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 12000,
+          "amount": 12000
+        },
+        {
+          "description": "3 ft wide drawer unit with tandem boxes",
+          "specification": "Hafele tandem box system with soft-close",
+          "unit": "nos",
+          "quantity": 2,
+          "rate": 22000,
+          "amount": 44000
+        },
+        {
+          "description": "Gas chamber cabinet (1'6\" wide)",
+          "specification": "Heat resistant material, ventilation",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 8000,
+          "amount": 8000
+        },
+        {
+          "description": "5\" filler panel",
+          "specification": "Matching laminate finish",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 2000,
+          "amount": 2000
+        },
+        {
+          "description": "1 ft bottle pull-out unit",
+          "specification": "Hafele pull-out mechanism",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 15000,
+          "amount": 15000
+        },
+        {
+          "description": "3 ft utility drawer units (3 drawers each)",
+          "specification": "Hafele drawer systems with soft-close",
+          "unit": "nos",
+          "quantity": 2,
+          "rate": 20000,
+          "amount": 40000
+        }
+      ],
+      "subtotal": 139000
+    },
+    {
+      "category": "Tall Units",
+      "items": [
+        {
+          "description": "Tall unit 7'H x 3'W x 2'D with tandem drawers",
+          "specification": "2 tandem drawers + 1 double door cabinet, 18mm BWP ply",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 45000,
+          "amount": 45000
+        },
+        {
+          "description": "Tall unit 7'H x 3'W x 2'D aluminum glass shutter",
+          "specification": "Double door aluminum profile with glass, handleless",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 48000,
+          "amount": 48000
+        }
+      ],
+      "subtotal": 93000
+    },
+    {
+      "category": "Wall Cabinets",
+      "items": [
+        {
+          "description": "Standard wall cabinets (5 ft height from floor)",
+          "specification": "18mm BWP ply with laminate, soft-close hinges",
+          "unit": "nos",
+          "quantity": 3,
+          "rate": 14000,
+          "amount": 42000
+        },
+        {
+          "description": "5'H x 2'W aluminum shutter wall cabinets",
+          "specification": "Aluminum shutters with frame",
+          "unit": "nos",
+          "quantity": 2,
+          "rate": 16000,
+          "amount": 32000
+        },
+        {
+          "description": "3'W x 1'D aluminum profile glass shutter",
+          "specification": "Double door with aluminum profile and glass",
+          "unit": "nos",
+          "quantity": 4,
+          "rate": 18000,
+          "amount": 72000
+        }
+      ],
+      "subtotal": 146000
+    },
+    {
+      "category": "Hafele Hardware & Accessories",
+      "items": [
+        {
+          "description": "Hafele Tandem Box drawer systems",
+          "specification": "Full extension with soft-close, for 3 ft drawers",
+          "unit": "set",
+          "quantity": 6,
+          "rate": 3500,
+          "amount": 21000
+        },
+        {
+          "description": "Hafele soft-close hinges",
+          "specification": "Premium quality concealed hinges",
+          "unit": "pcs",
+          "quantity": 30,
+          "rate": 850,
+          "amount": 25500
+        },
+        {
+          "description": "Hafele bottle pull-out mechanism",
+          "specification": "Chrome finished pull-out unit",
+          "unit": "set",
+          "quantity": 1,
+          "rate": 8500,
+          "amount": 8500
+        },
+        {
+          "description": "Kitchen sink accessories - waste bin",
+          "specification": "Pull-out waste bin system",
+          "unit": "set",
+          "quantity": 1,
+          "rate": 4500,
+          "amount": 4500
+        },
+        {
+          "description": "Bottle washer/dish drainer",
+          "specification": "Stainless steel sink accessory",
+          "unit": "set",
+          "quantity": 1,
+          "rate": 3000,
+          "amount": 3000
+        },
+        {
+          "description": "Handleless profiles/handles",
+          "specification": "Aluminum profiles or handles as per choice",
+          "unit": "set",
+          "quantity": 1,
+          "rate": 15000,
+          "amount": 15000
+        }
+      ],
+      "subtotal": 77500
+    },
+    {
+      "category": "Countertop & Backsplash",
+      "items": [
+        {
+          "description": "Countertop - Quartz/Granite",
+          "specification": "20mm thickness with polished edge",
+          "unit": "sqft",
+          "quantity": 60,
+          "rate": 2800,
+          "amount": 168000
+        },
+        {
+          "description": "Backsplash tiles with installation",
+          "specification": "Up to 5 ft height, premium tiles",
+          "unit": "sqft",
+          "quantity": 50,
+          "rate": 1200,
+          "amount": 60000
+        }
+      ],
+      "subtotal": 228000
+    },
+    {
+      "category": "Appliances",
+      "items": [
+        {
+          "description": "Kitchen sink (stainless steel)",
+          "specification": "Single/double bowl with drainboard",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 12000,
+          "amount": 12000
+        },
+        {
+          "description": "Built-in hob",
+          "specification": "3-4 burner gas hob",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 18000,
+          "amount": 18000
+        },
+        {
+          "description": "Angle chimney",
+          "specification": "60-90cm width, filterless/with baffle",
+          "unit": "nos",
+          "quantity": 1,
+          "rate": 25000,
+          "amount": 25000
+        }
+      ],
+      "subtotal": 55000
+    },
+    {
+      "category": "Labor & Installation",
+      "items": [
+        {
+          "description": "Carpentry and cabinet installation",
+          "specification": "Complete installation of all cabinets",
+          "unit": "lot",
+          "quantity": 1,
+          "rate": 85000,
+          "amount": 85000
+        },
+        {
+          "description": "Plumbing work",
+          "specification": "Sink installation, connections",
+          "unit": "lot",
+          "quantity": 1,
+          "rate": 15000,
+          "amount": 15000
+        },
+        {
+          "description": "Electrical work",
+          "specification": "Chimney, hob connections, lighting",
+          "unit": "lot",
+          "quantity": 1,
+          "rate": 12000,
+          "amount": 12000
+        },
+        {
+          "description": "Backsplash tile work",
+          "specification": "Tile laying and grouting",
+          "unit": "lot",
+          "quantity": 1,
+          "rate": 18000,
+          "amount": 18000
+        }
+      ],
+      "subtotal": 130000
+    }
+  ],
+
+  "summary": {
+    "baseCabinets": 139000,
+    "tallUnits": 93000,
+    "wallCabinets": 146000,
+    "hafeleHardware": 77500,
+    "countertopBacksplash": 228000,
+    "appliances": 55000,
+    "labor": 130000,
+    "subtotal": 868500,
+    "gst": 78165,
+    "grandTotal": 946665,
+    "roundedTotal": 947000,
+    "advancePaid": 0,
+    "balance": 947000
+  },
+
+  "paymentSchedule": [
+    {
+      "milestone": "Advance (30%)",
+      "amount": 284100,
+      "dueDate": "On approval"
+    },
+    {
+      "milestone": "Material procurement (40%)",
+      "amount": 378800,
+      "dueDate": "Before material order"
+    },
+    {
+      "milestone": "Final payment (30%)",
+      "amount": 284100,
+      "dueDate": "On completion"
+    }
+  ],
+
+  "notes": [
+    "Prices are approximate and subject to change based on final material selection",
+    "Hafele products come with 10-year warranty",
+    "All measurements to be confirmed on site",
+    "GST @ 9% (adjust as per actual rate)",
+    "Transportation and site storage charges extra if required"
+  ]
+}
