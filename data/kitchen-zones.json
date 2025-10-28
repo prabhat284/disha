@@ -1,0 +1,232 @@
+{
+  "option-a": {
+    "projectInfo": {
+      "name": "Modern Minimalist Kitchen",
+      "client": "Neeru Tiwari",
+      "totalArea": 120,
+      "layoutType": "L-shaped",
+      "totalCost": 825000,
+      "timeline": "6-8 weeks"
+    },
+    "coohomProject": {
+      "mainUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "projectId": "3FO3I6CXDHMI",
+      "views": {
+        "overview": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI?view=overview",
+        "floorPlan": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI?view=floorplan"
+      }
+    },
+    "zones": [
+      {
+        "id": "zone-a",
+        "name": "Main Cooking Area",
+        "description": "Primary cooking zone with hob, sink, and prep area",
+        "type": "cooking",
+        "location": "North wall",
+        "dimensions": {
+          "width": 3000,
+          "depth": 600,
+          "wallHeight": 2700
+        },
+        "coohomView": {
+          "url": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+          "viewAngle": "front",
+          "camera": {
+            "position": { "x": 0, "y": 1500, "z": 2000 },
+            "target": { "x": 0, "y": 900, "z": 0 }
+          },
+          "floorPlanUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI?view=floorplan&zone=zone-a"
+        },
+        "drawings": {
+          "plan": "/drawings/option-a/zone-a-plan.pdf",
+          "elevation": "/drawings/option-a/zone-a-elevation.pdf",
+          "section": "/drawings/option-a/zone-a-section.pdf",
+          "coohomExports": {
+            "plan": "/drawings/coohom/option-a/zone-a-plan.jpg",
+            "elevation": "/drawings/coohom/option-a/zone-a-elevation.jpg",
+            "render": "/drawings/coohom/option-a/zone-a-render.jpg"
+          }
+        },
+        "cabinets": ["BC-001", "BC-002", "WC-001", "WC-002"],
+        "appliances": [
+          {
+            "type": "hob",
+            "model": "4-burner gas hob",
+            "position": "BC-002",
+            "cutoutSize": { "width": 560, "depth": 490 }
+          },
+          {
+            "type": "sink",
+            "model": "Double bowl with drainboard",
+            "position": "BC-001",
+            "cutoutSize": { "width": 860, "depth": 500 }
+          },
+          {
+            "type": "chimney",
+            "model": "60cm filterless",
+            "position": "Above BC-002",
+            "mounting": "wall"
+          }
+        ],
+        "utilities": {
+          "plumbing": [
+            { "type": "water supply", "location": "BC-001", "size": "15mm" },
+            { "type": "drainage", "location": "BC-001", "size": "50mm" }
+          ],
+          "electrical": [
+            { "type": "socket", "location": "Backsplash", "quantity": 3, "rating": "15A" },
+            { "type": "chimney point", "location": "Above hob", "rating": "15A" },
+            { "type": "under-cabinet lighting", "location": "WC-001, WC-002", "rating": "5A" }
+          ],
+          "gas": [
+            { "type": "gas line", "location": "BC-002", "size": "15mm" }
+          ]
+        },
+        "measurements": {
+          "floorToCountertop": 900,
+          "countertopToWallCabinet": 600,
+          "wallCabinetHeight": 720,
+          "totalHeight": 2700
+        },
+        "boq": {
+          "cabinets": 85000,
+          "countertop": 42000,
+          "backsplash": 18000,
+          "appliances": 55000,
+          "hardware": 28000,
+          "labor": 35000,
+          "total": 263000
+        }
+      },
+      {
+        "id": "zone-b",
+        "name": "Storage & Pantry",
+        "description": "Tall units for dry storage and pantry organization",
+        "type": "storage",
+        "location": "East wall",
+        "dimensions": {
+          "width": 1800,
+          "depth": 600,
+          "wallHeight": 2700
+        },
+        "coohomView": {
+          "url": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+          "viewAngle": "right",
+          "camera": {
+            "position": { "x": 2000, "y": 1500, "z": 0 },
+            "target": { "x": 0, "y": 1050, "z": 0 }
+          },
+          "floorPlanUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI?view=floorplan&zone=zone-b"
+        },
+        "drawings": {
+          "plan": "/drawings/option-a/zone-b-plan.pdf",
+          "elevation": "/drawings/option-a/zone-b-elevation.pdf",
+          "section": "/drawings/option-a/zone-b-section.pdf",
+          "coohomExports": {
+            "plan": "/drawings/coohom/option-a/zone-b-plan.jpg",
+            "elevation": "/drawings/coohom/option-a/zone-b-elevation.jpg",
+            "render": "/drawings/coohom/option-a/zone-b-render.jpg"
+          }
+        },
+        "cabinets": ["TU-001", "TU-002"],
+        "appliances": [],
+        "utilities": {
+          "electrical": [
+            { "type": "LED lighting", "location": "Inside TU-001", "rating": "5A" }
+          ]
+        },
+        "measurements": {
+          "tallUnitHeight": 2100,
+          "baseHeight": 150,
+          "topClearance": 450
+        },
+        "boq": {
+          "cabinets": 93000,
+          "hardware": 22000,
+          "labor": 25000,
+          "total": 140000
+        }
+      },
+      {
+        "id": "zone-c",
+        "name": "Breakfast Counter",
+        "description": "Peninsula unit with seating for 2-3 people",
+        "type": "dining",
+        "location": "Open side",
+        "dimensions": {
+          "width": 1200,
+          "depth": 900,
+          "height": 900
+        },
+        "coohomView": {
+          "url": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+          "viewAngle": "isometric",
+          "camera": {
+            "position": { "x": 1500, "y": 1200, "z": 1500 },
+            "target": { "x": 0, "y": 450, "z": 0 }
+          },
+          "floorPlanUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI?view=floorplan&zone=zone-c"
+        },
+        "drawings": {
+          "plan": "/drawings/option-a/zone-c-plan.pdf",
+          "elevation": "/drawings/option-a/zone-c-elevation.pdf",
+          "section": "/drawings/option-a/zone-c-section.pdf",
+          "coohomExports": {
+            "plan": "/drawings/coohom/option-a/zone-c-plan.jpg",
+            "elevation": "/drawings/coohom/option-a/zone-c-elevation.jpg",
+            "render": "/drawings/coohom/option-a/zone-c-render.jpg"
+          }
+        },
+        "cabinets": ["BC-003"],
+        "appliances": [],
+        "utilities": {
+          "electrical": [
+            { "type": "socket", "location": "Side panel", "quantity": 2, "rating": "15A" }
+          ]
+        },
+        "measurements": {
+          "counterHeight": 900,
+          "overhang": 300,
+          "kneeSpace": 600
+        },
+        "boq": {
+          "cabinets": 45000,
+          "countertop": 32000,
+          "hardware": 12000,
+          "labor": 18000,
+          "total": 107000
+        }
+      }
+    ]
+  },
+  "option-b": {
+    "projectInfo": {
+      "name": "Contemporary Warm Kitchen",
+      "client": "Neeru Tiwary",
+      "totalArea": 120,
+      "layoutType": "L-shaped",
+      "totalCost": 875000,
+      "timeline": "6-8 weeks"
+    },
+    "coohomProject": {
+      "mainUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "projectId": "3FO3I6CXDHMI"
+    },
+    "zones": []
+  },
+  "option-c": {
+    "projectInfo": {
+      "name": "Industrial Chic Kitchen",
+      "client": "Neeru Tiwari",
+      "totalArea": 120,
+      "layoutType": "L-shaped",
+      "totalCost": 795000,
+      "timeline": "6-8 weeks"
+    },
+    "coohomProject": {
+      "mainUrl": "https://www.coohom.com/pub/modelo/viewer/preview/3FO3I6CXDHMI",
+      "projectId": "3FO3I6CXDHMI"
+    },
+    "zones": []
+  }
+}

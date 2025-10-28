@@ -1,0 +1,68 @@
+{
+  "projectId": "",
+  "createdAt": "",
+  "status": "requirements-captured",
+  "phase": "requirement",
+  
+  "clientInfo": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "projectLocation": ""
+  },
+  
+  "spaceInfo": {
+    "layoutType": "L-shaped",
+    "totalArea": 0,
+    "existingKitchen": false,
+    "ceilingHeight": 2700,
+    "floorPlanAvailable": false
+  },
+  
+  "usage": {
+    "familySize": 0,
+    "cookingFrequency": "daily",
+    "cuisineType": [],
+    "primaryCook": "",
+    "entertainingFrequency": "occasional"
+  },
+  
+  "zones": {
+    "cooking": { "required": true, "priority": "high" },
+    "prep": { "required": true, "priority": "high" },
+    "storage": { "required": true, "priority": "high" },
+    "pantry": { "required": false, "priority": "medium" },
+    "breakfast": { "required": false, "priority": "low" },
+    "cleaning": { "required": true, "priority": "high" }
+  },
+  
+  "appliances": {
+    "existing": [],
+    "new": [],
+    "preferences": {}
+  },
+  
+  "design": {
+    "style": "contemporary",
+    "colorScheme": [],
+    "finishes": {
+      "cabinets": "laminate",
+      "countertop": "quartz",
+      "backsplash": "tiles"
+    }
+  },
+  
+  "budget": {
+    "range": "mid",
+    "maxBudget": 0,
+    "flexibility": "moderate"
+  },
+  
+  "timeline": {
+    "projectStart": "",
+    "desiredCompletion": "",
+    "flexibility": "moderate"
+  }
+}

@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { Calendar, TrendingUp, CheckCircle2, AlertCircle, ArrowRight, MapPin, Clock } from 'lucide-react'
 import projectInfo from '@/data/project-info.json'
 
+import { ClipboardList, Sparkles } from 'lucide-react'
+
 export default function Dashboard() {
   const quickStats = [
     {
@@ -206,6 +208,7 @@ export default function Dashboard() {
             </div>
           </motion.div>
         </div>
+       
 
         {/* Important Notice */}
         <motion.div
